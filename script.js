@@ -32,13 +32,9 @@ const form_list = document.querySelector ("#form_list_ID");
 //Liste-funksjonen
 function add_form () {
     if (name_input.value, password_input.value, address_input.value) {
-        const add_name = document.createElement ("li");
-        const add_password = document.createElement ("li");
-        const add_address = document.createElement ("li");
-        add_name.textContent = name_input.value;
-        add_password.textContent = password_input.value;
-        add_address.textContent = address_input.value;
-        form_list.appendChild (add_name, add_password, add_address);
+        const add_form = document.createElement ("li");
+        add_form.textContent = name_input.value + ", " + password_input. value + ", " + address_input.value;
+        form_list.appendChild (add_form);
     } else {
         alert ("Legg inn manglende informasjon"), console.log ("Legg inn manglende informasjon");
     }
