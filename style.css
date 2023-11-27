@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    color: orange;
+    background-color: black;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.name_container {
+    width: fit-content;
+    border: white solid 1px;
+    padding: 1rem;
+}
+
+.li {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 2em;
+}

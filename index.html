@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section class="form">
+        <h1>Basic submit</h1>
+        <form id="basic_form_ID">
+            <input type="name" id="basic_input_ID" placeholder="Input name">
+        </form>
+        <button onclick="add_name()">Submit</button>
+        <section class="name_container">
+            <ul id="name_list_ID"></ul>
+        </section>
+    </section>
+    <section class="form">
+        <h1>Multiple submit</h1>
+        <form id="multi_form_ID">
+            <input type="name" id="name_input_ID" placeholder="Input name">
+            <input type="password" id="password_input_ID" placeholder="Input password">
+            <input type="text" id="adress_input_ID" placeholder="Input address">
+        </form>
+        <button onclick="add_form ()">Submit</button>
+        <section class="name_container">
+            <ul id="form_list_ID"></ul>
+        </section>
+    </section>
+</body>
+</html>
